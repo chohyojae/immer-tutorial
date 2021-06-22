@@ -43,7 +43,7 @@ const App = () => {
     });
 
     nextId.current++;
-  }, []);
+  });
 
   const onRemove = useCallback((id) => {
     setData(
